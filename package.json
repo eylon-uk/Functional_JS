@@ -2,7 +2,7 @@
   "name": "functional_js_patterns",
   "version": "1.0.0",
   "description": "JS functional programming patterns",
-  "main": "index.js",
+  "main": "fp_patterns.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,9 @@
     "url": "?.git"
   },
   "author": "Eylon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0"
+  }
 }
