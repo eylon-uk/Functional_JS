@@ -11,5 +11,9 @@
     "url": "?.git"
   },
   "author": "Eylon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.22.1",
+    "webpack": "^1.13.2"
+  }
 }

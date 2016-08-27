@@ -1,3 +1,5 @@
+var R = require('ramda');
+
 // FrontEnd Masters - Hardcore functional Programing - Lonsdorf/Nelson
 
 // 1. Find greater in array
@@ -28,7 +30,7 @@ var greater = function(a,b) {
     return a > b ? a : b;
 };
 
-var max = _.reduce(greater, -2);
+var max = R.reduce(greater, -2);
 
-max([1,-3483,9,7,2]);
+console.log(max([1,-3483,9,7,2]));
 
